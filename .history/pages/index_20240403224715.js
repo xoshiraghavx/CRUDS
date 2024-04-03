@@ -24,8 +24,8 @@ export default function Products(){
                 </tr>
             </thead>
             <tbody>
-                {products.map( (product, index) =>(
-                    <tr key={index}>
+                {products.map( (, inde) =>(
+                    <tr>
                         <td>{product._id}</td>
                         <td>{product.title}</td>
                         <td>{product.price}</td>
